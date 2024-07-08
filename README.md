@@ -6,6 +6,9 @@
 | 312210224 | Johanes Mula Febrian Sihombing | TI. 22. A2  |
 | 312210223 | Faiz Dzaki Ramadhani | TI. 22. A2  |
 
+## Laporan
+
+
 ## Tujuan 
 Mengimplementasikan algoritma K-Means untuk segmentasi gambar. 
 Menampilkan hasil segmentasi gambar dengan jumlah cluster yang ditentukan. 
@@ -70,3 +73,4 @@ cv2.KMEANS_RANDOM_CENTERS)
     plt.title('Segmented Image with K-Means Clustering')     plt.axis('off')  # Menyembunyikan axis     plt.show() 
  
 ``` 
+
