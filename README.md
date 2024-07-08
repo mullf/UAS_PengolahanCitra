@@ -78,37 +78,55 @@ cv2.KMEANS_RANDOM_CENTERS)
 
 ### Langkah 1 : Membaca Gambar
 ![Citra1](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/eaad4d56-d0c8-4fbb-ba33-b837259550c5)
+
 Langkah pertama adalah membaca gambar dari file menggunakan fungsi ``cv2.imread.`` Gambar yang dibaca kemudian diubah warnanya dari BGR ke RGB menggunakan ``cv2.cvtColor`` untuk kompatibilitas dengan ``matplotlib`` 
+
 
 ### Langkah 2 : Mengubah Warna Gambar
 ![Citra2](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/a32d16cf-c98b-413b-bf7f-fbc6cfaf230d)
+
 Gambar yang dibaca oleh OpenCV menggunakan format BGR secara default. Fungsi cv2.cvtColor digunakan untuk mengubah gambar menjadi format RGB. 
+
 
 ### Langkah 3 : Menampilkan Gambar Asli
 ![Citra3](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/15ce711d-8672-424c-8988-55fce4ffecca)
+
 Gambar asli ditampilkan menggunakan`` matplotlib`` untuk visualisasi awal.
+
 
 ### Langkah 4 : Mengubah Bentuk Gambar
 ![Citra4](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/db624f88-83b7-44b1-80b1-194819fd975b)
+
 Gambar diubah menjadi array 2D di mana setiap baris mewakili satu piksel dengan tiga nilai warna (RGB).
+
 ![Citra4 2](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/598cbad2-9cfc-42a3-a40d-ecdaac918201)
+
 
 ### Langkah 5 : Mengonversi ke Tipe Float
 ![Citra5](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/22d1e616-1965-4d57-93b3-b8d42caf63d7)
+
 Array piksel dikonversi ke tipe float untuk digunakan dalam algoritma K-Means.
+
 
 ### Langkah 6 : Menentukan Kriteria K-Means
 ![Citra6](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/5adc9b58-8135-4e55-9a23-de6295a451fe)
+
 Kriteria untuk algoritma K-Means ditentukan, yaitu berhenti setelah 100 iterasi atau mencapai akurasi 85%. 
+
 
 ### Langkah 7 : Menjalankan K-Means Clustering
 ![Citra7](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/6bd6021d-33ae-4492-ad4a-2188b100c148)
+
 K-Means clustering dijalankan dengan jumlah cluster k yang ditentukan (dalam kasus ini, 4). Fungsi cv2.kmeans menangani proses penetapan titik data ke cluster, perhitungan pusat cluster, dan penyesuaian hingga konvergensi. 
+
 
 ### Langkah 8 : Mengonversi Data ke Nilai 8-Bit
 ![Citra8](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/7503a017-310a-4720-b685-46b07cfc69f2)
+
 Pusat cluster dikonversi menjadi nilai 8-bit dan data gambar yang di-segmentasi dibentuk ulang menjadi dimensi gambar asli.
+
 
 ### Langkah 9 : Menampilkan Gambar yang sudah di Segmentasi
 ![Citra9](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/fcbf6fe7-352a-4e22-b08d-7b84338bdacf)
+
 Gambar yang sudah di-segmentasi ditampilkan menggunakan matplotlib.
