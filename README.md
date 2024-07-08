@@ -74,3 +74,6 @@ cv2.KMEANS_RANDOM_CENTERS)
  
 ``` 
 
+## Penjelasan Kode dan Langkah-langkah
+![Citra1](https://github.com/mullf/UAS_PengolahanCitra/assets/115521049/eaad4d56-d0c8-4fbb-ba33-b837259550c5)
+Langkah pertama adalah membaca gambar dari file menggunakan fungsi ``cv2.imread.`` Gambar yang dibaca kemudian diubah warnanya dari BGR ke RGB menggunakan ``cv2.cvtColor`` untuk kompatibilitas dengan ``matplotlib`` 
