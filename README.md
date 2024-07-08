@@ -6,7 +6,7 @@
 | 312210224 | Johanes Mula Febrian Sihombing | TI. 22. A2  |
 | 312210223 | Faiz Dzaki Ramadhani | TI. 22. A2  |
 
-## Laporan
+## Laporan Dan Hasil
 (https://drive.google.com/file/d/1VQsqE6AFBJVNKG-q4pzhyJB5j0qeGSMr/view?usp=sharing)
 
 ## Tujuan 
