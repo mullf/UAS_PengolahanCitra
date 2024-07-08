@@ -7,7 +7,7 @@
 | 312210223 | Faiz Dzaki Ramadhani | TI. 22. A2  |
 
 ## Laporan
-
+(https://drive.google.com/file/d/1VQsqE6AFBJVNKG-q4pzhyJB5j0qeGSMr/view?usp=sharing)
 
 ## Tujuan 
 Mengimplementasikan algoritma K-Means untuk segmentasi gambar. 
